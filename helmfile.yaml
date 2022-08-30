@@ -1346,7 +1346,7 @@ releases:
             apiVersion: v1
             kind: Secret
             name: example-image-pull
-            namespace: {{`"{{request.object.metadata.name}}"`}}
+            namespace: {{ "{{" }}request.object.metadata.name{{ "}}" }}
             synchronize: true
             clone:
               namespace: kyverno
