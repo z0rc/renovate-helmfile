@@ -10,7 +10,7 @@ releases:
   version: 0.5.4
   disableValidationOnInstall: true
   values:
-    CustomResources:
+  - CustomResources:
     - apiVersion: kyverno.io/v1
       kind: ClusterPolicy
       fullnameOverride: example-image-pull
