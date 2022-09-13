@@ -7,7 +7,7 @@ releases:
 - name: kyverno-custom-policies
   namespace: kyverno
   chart: deliveryhero/k8s-resources
-  version: 0.5.4
+  version: 0.6.1
   disableValidationOnInstall: true
   values:
   - CustomResources:
